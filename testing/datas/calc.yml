@@ -1,0 +1,26 @@
+add:
+  int:
+    datas:
+      - [ 1,1,2 ]
+      - [ 100,100,200 ]
+      - [ 100,200,300 ]
+      - [ 500,300,800 ]
+      - [ 0.1,0.1,0.2 ]
+      - [ -1,1,0 ]
+    ids: ['int','bigunum','bignum2','bignum3','minus','zero']
+
+  folat:
+    datas:
+      - [ 0.1,0.1,0.2 ]
+      - [ 0.1,0.2,0.3 ]
+    ids: [ 'float1','float2' ]
+
+div:
+  int:
+    datas:
+      - [1,1,1]
+    ids: ['int']
+  erro:
+    datas:
+      - [1,0,1]
+    ids: ['erro']
